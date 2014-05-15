@@ -48,7 +48,10 @@ knihy
 a <- array(1:10, c(2,7)) #vektor, dimenzie
 a <- array(1:10, c(2,2,7))
 
-#zoznam/list - viac typov sucasne #!!!!!!!!!!!!!!!!doplnit
+#zoznam/list - viac typov sucasne
+l <- list(cisla=c(1,2,3,4), pismena=c('a', 'b', 'c', 'd'))
+l$cisla
+l$pismena
 
 #help a example
 help(mean)
