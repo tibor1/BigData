@@ -4,8 +4,10 @@
 n <- 5
 
 #boolean
-t <- TRUE  #t <- FALSE
-#t <- F
+t <- TRUE  
+t <- T
+t <- FALSE
+t <- F
 
 #retazec
 a <- 'abc'
