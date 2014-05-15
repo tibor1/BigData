@@ -1,7 +1,10 @@
-#births
+#births - nacitanie dat
 births <- scan("births.dat")
 birthstimeseries <- ts(births, frequency=12, start=c(1946,1)) #frekvencia - kolko hodnot je za rok
 plot(birthstimeseries)
+
+#dekompozicia
+
 plot(decompose(birthstimeseries))
 
 dekomponovane <- decompose(birthstimeseries) #aditivne
